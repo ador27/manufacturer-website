@@ -75,7 +75,7 @@ const Login = () => {
                         <input type="password" ref={passwordRef} className="h-10 border border-gray-200 rounded-r-lg outline-none focus:ring-1 ring-blue-300 w-full pl-1" id="" name="password" placeholder="password" required={true} />
                     </div>
                     {errorElement}
-                    <p>New to travel?
+                    <p>New to Affinity Electronics?
                         <Link to="/register" className=' text-blue-500 no-underline mx-2'>Please Register</Link>
                     </p>
                     <button type='submit' value="button" className="px-4 py-2 rounded bg-blue-400 text-white hover:bg-blue-700 my-4 w-full" >Login</button>
