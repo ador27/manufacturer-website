@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "name": "Drill Machine",
+        "description": "Best Machine to drill for anything within a short time",
+        "picture": "https://i.ibb.co/6YWbjJF/manik-roy-UGTrlvki-A-unsplash.d",
+        "minimum": "500",
+        "available": "12000",
+        "price": "$55"
+    },
+    {
+        "id": "2",
+        "name": "Electric Cutter ",
+        "description": "Best Saw cutter to cut out anything",
+        "picture": "https://i.ibb.co/QvZvKgv/greyson-joralemon-CXlls8jm1-VI-unsplash.d",
+        "minimum": "500",
+        "available": "12000",
+        "price": "$45"
+    },
+    {
+        "id": "3",
+        "name": "Screw Driver",
+        "description": "Best screw driver to do our work",
+        "picture": "https://i.ibb.co/v1HMyPW/steve-johnson-l-H-UZuo-G-a-Y-unsplash.d",
+        "minimum": "500",
+        "available": "12000",
+        "price": "$12"
+    },
+    {
+        "id": "4",
+        "name": "Pilers",
+        "description": "Our premium pilers to use this for electric work",
+        "picture": "https://i.ibb.co/ZGyJfn5/istockphoto-676041152-612x612.d",
+        "minimum": "500",
+        "available": "12000",
+        "price": "$15"
+    },
+    {
+        "id": "5",
+        "name": "Spanners",
+        "description": "Best looking and most useful spanners",
+        "picture": "https://i.ibb.co/3rwtds7/spanner-8684065-250.d",
+        "minimum": "500",
+        "available": "12000",
+        "price": "$18"
+    },
+    {
+        "id": "6",
+        "name": "Electrical Tape",
+        "description": "To use in electric work best to use this tape for safety",
+        "picture": "https://i.ibb.co/2YXNfXs/download.jpg",
+        "minimum": "500",
+        "available": "12000",
+        "price": "$4"
+    }
+]
