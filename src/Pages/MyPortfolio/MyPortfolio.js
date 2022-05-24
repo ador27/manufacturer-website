@@ -28,7 +28,7 @@ const MyPortfolio = () => {
                         <td>4.00</td>
                     </tr>
                     <tr>
-                        <td>B.sc</td>
+                        <td>B.Sc</td>
                         <td>Daffodil International University</td>
                         <td>2022</td>
                         <td>3.55</td>
@@ -36,6 +36,38 @@ const MyPortfolio = () => {
 
                 </table>
 
+            </div>
+
+            <div>
+                <h1 className='text-3xl text-blue-600 m-8 text-center'>List of Technologies and Skills of mine as Web Developer</h1>
+                <ul>
+                    <li>HTML</li>
+                    <li>HTML5</li>
+                    <li>CSS</li>
+                    <li>CSS3</li>
+                    <li>Bootstrap</li>
+                    <li>Tailwind</li>
+                    <li>JavaScript</li>
+                    <li>ES6</li>
+                    <li>React.js</li>
+                    <li>MongoDB</li>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>Authentication</li>
+                    <li>Database</li>
+                    <li>Unique Design Concept</li>
+                </ul>
+            </div>
+
+
+            <div>
+                <h1 className='text-3xl text-yellow-600 m-8 text-center'>List of my 3 Best Projects</h1>
+
+                <div>
+                    <h2>Live Link: https://affinity-79d3a.web.app/</h2>
+                    <h2>Live Link: https://travel-guide-service.web.app/</h2>
+                    <h2>Live Link: https://precious-cajeta-baf51c.netlify.app/</h2>
+                </div>
             </div>
         </div>
     );
