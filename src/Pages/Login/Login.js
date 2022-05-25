@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
+import useToken from '../../hooks/UseToken';
 import mail from '../../Images/icons/mail.png'
 import password from '../../Images/icons/password.png'
 import SocialLogin from '../Login/SocialLogin';
@@ -21,6 +22,8 @@ const Login = () => {
         loading,
         error,
     ] = useSignInWithEmailAndPassword(auth);
+
+    const [token] = useToken(user);
 
     const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail(auth);
 
