@@ -3,8 +3,8 @@ import Banner from './Banner';
 import Review from './Review';
 import Tools from './Tools';
 import BusinessSummary from './BusinessSummary';
-import Footer from '../Shared/Footer';
 import Charts from './Charts';
+import Contact from './Contact';
 
 const Home = () => {
     return (
@@ -14,7 +14,7 @@ const Home = () => {
             <BusinessSummary></BusinessSummary>
             <Review></Review>
             <Charts></Charts>
-            <Footer></Footer>
+            <Contact></Contact>
         </div>
     );
 };

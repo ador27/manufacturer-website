@@ -17,6 +17,7 @@ import MakeAdmin from './Pages/Dashboard/MakeAdmin';
 import AddProduct from './Pages/Dashboard/AddProduct';
 import ManageOrders from './Pages/Dashboard/ManageOrders';
 import ManageProducts from './Pages/Dashboard/ManageProducts';
+import Footer from './Pages/Shared/Footer';
 
 function App() {
   return (
@@ -53,6 +54,8 @@ function App() {
         } />
         <Route path='*' element={<NotFound />} />
       </Routes>
+
+      <Footer></Footer>
 
     </div>
   );
