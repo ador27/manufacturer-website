@@ -10,7 +10,7 @@ const Purchase = () => {
     }
     const [tools, setTools] = useState([]);
     useEffect(() => {
-        fetch(`http://localhost:5000/tools/:{_id}`)
+        fetch(`https://young-peak-15744.herokuapp.com/tools/:{_id}`)
             .then(res => res.json())
             .then(data => setTools(data));
     }, [])

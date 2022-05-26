@@ -10,7 +10,7 @@ const MyReview = () => {
         const reviews = { name, toolname, review, rating };
 
 
-        fetch('http://localhost:5000/review', {
+        fetch('https://young-peak-15744.herokuapp.com/review', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

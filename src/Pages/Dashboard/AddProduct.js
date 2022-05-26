@@ -10,7 +10,7 @@ const AddProduct = () => {
         const tools = { name, picture, description, price, minimum, available };
 
 
-        fetch('http://localhost:5000/tools', {
+        fetch('https://young-peak-15744.herokuapp.com/tools', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
