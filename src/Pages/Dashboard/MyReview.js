@@ -27,6 +27,7 @@ const MyReview = () => {
     }
     return (
         <div>
+            <h1 className='text-center text-2xl text-yellow-600 m-2'>To add your review fill up the form!</h1>
             <form onSubmit={handleAddReview}>
                 <input className='border-2 h-10 w-30 m-2' type="text" name='name' placeholder='Name' required /> <br />
                 <input className='border-2 h-10 w-30 m-2' type="text" name='toolname' placeholder='Tool Name' required /> <br />
