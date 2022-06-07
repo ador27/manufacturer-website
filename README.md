@@ -18,3 +18,11 @@
 * In dashboard option user can see their profile, their orders.
 * You can register here using your gmail address directly.
 
+## Technology Used:
+* ReactJs
+* React Router Dom
+* ExpressJs
+* MongoDB
+* Firebase
+* Tailwind CSS
+* daisyUI
