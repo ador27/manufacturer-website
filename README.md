@@ -5,6 +5,9 @@
 ## Website Purpose:
 
 * This website is mainly for manufacturer order.
+* Maintain Inventory Products & Protected.
+* API System Implementation.
+* ExpressJs CRUD Operation Implementation.
 * Here are many options.
 * Admin can handle add products, manage products, delete products.
 * Admin can make a user admin.
