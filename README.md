@@ -26,3 +26,7 @@
 * Firebase
 * Tailwind CSS
 * daisyUI
+
+## Admin Role:
+Email: affinitybd@gmail.com
+Password: 12345678
