@@ -10,7 +10,7 @@ const MyReview = () => {
         const reviews = { name, toolname, review, rating };
 
 
-        fetch('https://young-peak-15744.herokuapp.com/review', {
+        fetch('https://manufacturer-server-eta.vercel.app/review', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

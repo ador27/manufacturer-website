@@ -10,7 +10,7 @@ const AddProduct = () => {
         const tools = { name, picture, description, price, minimum, available };
 
 
-        fetch('https://young-peak-15744.herokuapp.com/tools', {
+        fetch('https://manufacturer-server-eta.vercel.app/tools', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

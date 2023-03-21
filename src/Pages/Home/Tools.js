@@ -4,7 +4,7 @@ import Tool from './Tool';
 const Tools = () => {
     const [tools, setTools] = useState([]);
     useEffect(() => {
-        fetch('https://young-peak-15744.herokuapp.com/tools')
+        fetch('https://manufacturer-server-eta.vercel.app/tools')
             .then(res => res.json())
             .then(data => setTools(data));
     }, [])
